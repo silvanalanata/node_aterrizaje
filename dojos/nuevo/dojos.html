@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div>
+        <label>First Name: * </label>
+        <input type="text" name="name">
+    </div>
+    <div>
+        <label>Last Name: * </label>
+        <input type="text" name="lastname">
+    </div>
+    <div>
+        <label>Email: * </label>
+        <input type="text" name="email">
+    </div>
+    <div>
+        <label>Password: * </label>
+        <input type="password" name="pass">
+    </div>
+    <div>
+        <label>Confirm Password: * </label>
+        <input type="password" name="passconfirm">
+    </div>
+    <div>
+        <label>Birthday* </label>
+        <input type="date" name="birt">
+    </div>
+    <div>
+        <input type="radio" name="font" value="normal" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="font" value="normal" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="font" value="normal" id="binary">
+        <label for="binary">Non-Binary</label>
+        <input type="radio" name="font" value="normal" id="noanswer">
+        <label for="noanswer">I prefer not to answer</label>
+    </div>
+    <div> 
+        <label>A short description about myself: </label>
+    </div>
+    <div>
+        <textarea name="comment" cols="20" rows="3"></textarea>
+    </div>
+    <div>
+        <label>Favorite Lenguae: </label>
+        <select name="lenguage">
+            <option>JavaScript</option>
+            <option>Java</option>
+            <option>Python</option>
+            <option>PHP</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="recibir" 
+        id="offers" checked >
+        <label for="offers">Yes, I would like to receive periodic email update</label>
+    </div>
+    <div>
+        <input type="submit" value="Create a Account">
+    </div>
+    <label>*Indicates a required field </label>  
+</body>
+</html>
